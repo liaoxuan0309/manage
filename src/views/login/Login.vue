@@ -54,6 +54,9 @@
       resetForm(formName) {
         this.$refs[formName].resetFields();
       }
+    },
+    created() {
+      console.log('超级管理员账号密码：admin，测试账号密码：test')
     }
   }
 </script>
